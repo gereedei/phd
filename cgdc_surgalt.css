@@ -1,0 +1,229 @@
+.header {
+  height: 350px;
+  background-image: url("pictures/20201127.jpg");
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_title {
+  width: 40%;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #223268;
+  margin-left: 30px;
+  font-size: 30px;
+}
+.header_title span {
+  text-transform: uppercase;
+}
+.header_signup {
+  height: 100%;
+  width: 30%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.header_signup > .btn {
+  padding: 10px 30px;
+  background-color: #f9f9f9;
+  text-decoration: none;
+  color: #223268;
+  text-transform: uppercase;
+}
+.header_signup > .btn:hover {
+  background-color: #fff;
+}
+.goal {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+.goal-1 {
+  width: 70%;
+  padding-right: 30px;
+}
+.goal-2 {
+  width: 30%;
+}
+.aguulga {
+  display: flex;
+  justify-content: space-between;
+  background-image: linear-gradient(90deg, #fff6f3, #d0937e);
+}
+.aguulga_baruun {
+  padding: 20px;
+  width: 80%;
+  border-right: 5px solid #fff;
+}
+.aguulga_zuun {
+  width: 20%;
+  padding: 20px;
+  background-color: #ae4c2a;
+  color: #fff;
+}
+.aguulga_blue {
+  display: flex;
+  justify-content: space-between;
+  background-image: linear-gradient(90deg, #d2d7e8, #fff);
+}
+.ab_1 {
+  width: 10%;
+  padding: 20px;
+  color: #fff;
+  background-color: #223268;
+  border-right: 5px solid #fff;
+}
+.ab_2 {
+  width: 60%;
+  padding: 20px;
+}
+.ab_3 {
+  width: 30%;
+  padding: 20px;
+}
+.foot {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+.btn_last {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  color: #fff;
+  background-color: #c2203d;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.btn_last:hover {
+  background-color: #223268;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border-top: 0px solid #ccc;
+  border-bottom: 2px solid #c2203d;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #c2203d;
+  color: #fff;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #c2203d;
+  color: #fff;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding-bottom: 40px;
+  border-bottom: 2px solid #ccc;
+  border-top: none;
+}
+
+.material {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.material img {
+  width: 49%;
+  margin-bottom: 20px;
+}
+.bagsh_nar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.bagsh {
+  width: 32%;
+  border: 1px solid #d6d6d6;
+  margin-bottom: 20px;
+
+  align-self: stretch;
+}
+.bagsh_head {
+  background-color: #223268;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.bagsh_head img {
+  height: 30px;
+}
+.bagsh_pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid #223268;
+  margin: 20px auto;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bagsh_info {
+  padding: 20px;
+  padding-top: 0;
+}
+.bagsh_info h2 {
+  font-size: 24px;
+  color: #223268;
+  text-align: center;
+}
+.bagsh_info h2 span {
+  display: block;
+  text-align: center;
+  color: #999;
+  font-size: 16px;
+}
+.btn-tap {
+  background-color: #d6d6d6;
+  margin-right: 5px;
+  padding: 10px 30px;
+  color: #223268;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+.btn-tap:hover {
+  color: #fff;
+  background-color: #223268;
+  transition: 0.3s;
+}
+.btn-tap-active {
+  color: #fff;
+  background-color: #223268;
+}
