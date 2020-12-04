@@ -227,3 +227,95 @@
   color: #fff;
   background-color: #223268;
 }
+/*------for home page-------------*/
+.surgalt_card {
+  padding: 30px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+.surgalt_card_img {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+.surgalt_card_info {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 30px;
+  position: relative;
+  left: -50px;
+}
+.surgalt_card_info h2 {
+  color: #223268;
+  font-family: sans-serif;
+  width: 80%;
+  font-size: 30px;
+  margin-top: 0;
+}
+.surgalt_card_info p {
+  margin: 0;
+  padding: 0;
+}
+.surgalt_card_info p > b {
+  color: #c2203d;
+}
+.surgalt_info_more {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.surgalt_info_more a {
+  padding: 10px 25px;
+  border: 1px solid #223268;
+  color: #223268;
+  text-decoration: none;
+}
+.surgalt_info_more a:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+
+.surgalt_card_2 {
+  background-color: #f9f9f9;
+  padding: 30px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+.surgalt_card_2 .surgalt_card_info {
+  left: 50px;
+  background: rgba(249, 249, 249, 0.95);
+}
+.tusluud {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  text-align: left;
+  padding: 50px 0;
+}
+.tusluud_card {
+  width: 31%;
+  border: 1px solid #ddd;
+}
+.tusluud_info {
+  padding: 20px;
+}
+.tusluud_info a {
+  padding: 10px 30px;
+  text-align: center;
+  background-color: #223268;
+  color: #ddd;
+  text-decoration: none;
+}
+.tusluud_info a:hover {
+  color: #fff;
+}
+.tusluud_img {
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
